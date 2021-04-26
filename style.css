@@ -42,6 +42,14 @@ a {
   padding-top: 100px;
 }
 
+.screenshotSignup {
+  padding-top: 50px;
+}
+
+.mailChimp {
+  margin: auto;
+}
+
 /* Body Area */
 .headline{
   font-family: "Lato";
