@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+a {
+  text-decoration: none!important;
+}
+
+/* Hero Area */
+#hero {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.mainTitle{
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.mainSubtitle{
+  font-size: 20px;
+  color: rgba(100,100,100,1);
+  padding-bottom: 60px;
+}
+
+.socialIcons{
+  padding-top: 40px;
+}
+
+.socialIcon{
+  padding: 0px 12px;
+  font-size: 30px;
+  color: #00b1f0;
+}
+
+.socialIcon:hover{
+  color: #00efe4;
+}
+
+/* Body Area */
+.headline{
+  font-family: "Lato";
+  font-weight: 1000;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+
+.firstHeadline{
+  color: #00b1f0;
+}
+
+.secondHeadline{
+  color: #00efe4;
+}
+
+.thirdHeadline{
+  color: #25f064;
+}
+
+.fourthHeadline{
+  color: #cbf000;
+}
+
+.subtitle{
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.spacing{
+  margin-top: 200px;
+}
+
+.textBox{
+  padding: 50px;
+  font-size: 24px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.05);
+}
+
+.submissionBox{
+  padding: 50px;
+  font-size: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.05);
+}
+
+.floatCenter{
+  margin: auto;
+  width: 80%;
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.footerIcons{
+  padding: 25px 0px;
+  font-size: 48px;
+}
+
+.footerIcon{
+  padding: 0px 12px;
+}
+
+.footer a{
+  color: #fff;
+}
+
+.footer a:hover{
+  background: -webkit-linear-gradient(#cbf000, #25f064, #00efe4, #00b1f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.mainButton{
+  text-decoration: none!important;
+  border: 1px solid #000;
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  padding: 25px 30px;
+  transition: 0.3s;
+  color: #00b1f0;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #cbf000, #25f064, #00efe4, #00b1f0);
+}
+
+.border-gradient:hover {
+  background-image: linear-gradient(to left, #cbf000, #25f064, #00efe4, #00b1f0);
+  color: #fff;
+}
