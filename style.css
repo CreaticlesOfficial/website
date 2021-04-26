@@ -38,6 +38,10 @@ a {
   color: #00efe4;
 }
 
+.screenshot{
+  padding-top: 100px;
+}
+
 /* Body Area */
 .headline{
   font-family: "Lato";
