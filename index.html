@@ -1,6 +1,12 @@
+<!--
+  Token Economics
+  Roadmap
+  Got Questions? Ping us on Telegram
+-->
+
 <html>
   <head>
-    <title>Request Custom NFTs | Creaticles</title>
+    <title>Buy Custom NFTs | Creaticles</title>
     <meta name="description" content="Creaticles lets you request any NFT you want.">
     <meta name="keywords" content="NFT, Blockchain, Cryptocurrency">
 
@@ -11,7 +17,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -28,121 +34,227 @@
     </script>
   </head>
   <body>
-    <div class="container" id="hero">
-      <div class="row">
+
+      <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" height="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Getting Started
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://docs.creaticles.com/" target="_blank">User Guide</a></li>
+                  <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSemlaOHBCBxI1i9XTg3u3-OZ1MzPzkq0tcTn5Xo6zOC8D08AQ/viewform?usp=sf_link" target="_blank">Apply to be an Artist on Creaticles</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Socials
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://twitter.com/creaticles" target="_blank">Twitter</a></li>
+                  <li><a class="dropdown-item" href="https://t.me/creaticlesofficial" target="_blank">Telegram</a></li>
+                  <li><a class="dropdown-item" href="https://discord.gg/9sa4tXRHjn" target="_blank">Discord</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <a href="https://app.creaticles.com" target="_blank">
+              <button class="btn btn-gradient" type="submit">Go to App</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container">
+      <div class="row align-items-center hero g-5 justify-content-center">
+        <div class="col-lg-6" data-aos="zoom-out">
+          <img src="img/ipad.png" width="100%">
+        </div>
+        <div class="col-lg-5">
+          <h1 data-aos="fade-down" class="headline">Request any custom NFT, and get it designed and minted.</h1>
+          <p data-aos="fade-up">Turn your idea for an NFT into an NFT. Creaticles helps you source amazing artists, create, and mint NFTs. All you need is an idea to get started. Creaticles handles everything from there.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row title" data-aos="zoom-out">
+        <h2>How it works</h2>
+        <p>Source your next NFT through a Creaticles contest. You put out a request, and our entire artist community submits ideas for you to choose from.</p>
+        <a href="https://app.creaticles.com" target="_blank">
+          <button class="btn btn-gradient" data-aos="fade-up">Make Your First NFT Request</button>
+        </a>
+      </div>
+      <div class="row align-items-center hero g-5 justify-content-center">
+        <div class="col-lg-4">
+          <div class="box" data-aos="fade-up">
+            <h3 class="boxTitle">Type Your Request</h3>
+            <p class="boxContent">Get descriptive, and tell our talented pool of NFT artists what sort of NFT you're looking to get designed.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box" data-aos="fade-down">
+            <h3 class="boxTitle">Set Your Rules</h3>
+            <p class="boxContent">Set the timeline for your contest, and deposit your crypto for winner rewards. Launch your request to the community!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box" data-aos="fade-up">
+            <h3 class="boxTitle">Select Your NFTs!</h3>
+            <p class="boxContent">Talented artists start creating your vision. Select your favorite NFTs, and they'll be minted and transfered to you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid dark">
+      <div class="row align-items-center hero g-5 justify-content-center">
+        <div class="col-lg-5">
+          <h2 data-aos="fade-down">Are you an artist? Start earning crypto with Creaticles.</h2>
+          <p data-aos="fade-in" class="light">Apply to be an artist on Creaticles. When you're accepted, you have access to every request that comes through Creaticles. 
+            By fulfilling requests, you will be able to earn crypto, earn the exclusive Creaticles token, and start building you reputation in the NFT space.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSemlaOHBCBxI1i9XTg3u3-OZ1MzPzkq0tcTn5Xo6zOC8D08AQ/viewform?usp=sf_link" target="_blank">
+              <button class="btn btn-gradient" data-aos="fade-up">Become a Creaticles Artist</button>
+            </a>
+        </div>
+        <div class="col-lg-5" data-aos="flip-left">
+          <img src="img/artist.png" width="100%">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center hero g-5 justify-content-center">
         <div class="col-lg-12">
-          <img src="img/logo.png" data-aos="fade-down">
-          <div class="mainTitle" data-aos="fade-in">
-            Get the NFT you deserve.
+          <div class="centered">
+            <h2 data-aos="fade-down">Power your Creaticles experience with the CRTL token</h2>
+            <p data-aos="fade-up">The CRTL token allows you to fully leverage your experience on Creaticles, from premium placement to having a say in the future of the project.</p>
           </div>
-          <div class="mainSubtitle" data-aos="fade-up">
-            Request a custom NFT and reward the creators that get you what you're looking for through Creaticles.
+        </div>
+      </div>
+      <div  class="row centered">
+        <div class="col-lg-3">
+          <div class="box" data-aos="fade-up">
+            <i class="fas fa-gavel gradient iconLarge"></i>
+            <p class="tokenText">Participate in governing the future of Creaticles</p>
           </div>
-          <div class="mainButtonArea" data-aos="flip-left">
-            <a href="https://app.creaticles.com/" class="border-gradient border-gradient-purple" target="_blank">Try Our Testnet</a>
+        </div>
+        <div class="col-lg-3">
+          <div class="box" data-aos="fade-down">
+            <i class="fas fa-crown gradient iconLarge"></i>
+            <p class="tokenText">Premium placement of requests & proposals</p>
           </div>
-          <div class="socialIcons">
-            <a href="https://twitter.com/creaticles" class="socialIcon" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/creaticlesofficial" class="socialIcon" target="_blank"><i class="fab fa-telegram"></i></a>
-            <a href="https://reddit.com/r/creaticles" class="socialIcon" target="_blank"><i class="fab fa-reddit"></i></a>
+        </div>
+        <div class="col-lg-3">
+          <div class="box" data-aos="fade-up">
+            <i class="fas fa-tags gradient iconLarge"></i>
+            <p class="tokenText">Get a discount on any and all transaction fees</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box" data-aos="fade-down">
+            <i class="fas fa-seedling gradient iconLarge"></i>
+            <p class="tokenText">Earn additional crypto rewards by staking the token</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container spacing">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="headline firstHeadline" data-aos="fade-down">
-            Custom NFTs for Any Occasion
-          </div>
-          <div class="subtitle" data-aos="fade-up">
-            Commemorate special occasions, celebrate community events, or just get something special because treat yo'self. Put in any request, and it gets broadcasted to a community of talented NFT creators.
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="textBox floatCenter" data-aos="flip-left">
-            <div id="typedStrings">
-              <p>In the market for a <strong>logo update</strong>. Best submission wins and becomes my Twitter logo for the next six months.</p>
-              <p><strong>Meme contest!!!</strong> All submissions get rewarded, show me your best doge memes.</p>
-              <p>Looking for an NFT to surprise my girlfriend: a portrait of her on her favorite planet, Saturn, for <strong>her birthday</strong>.</p>
-            </div>
-            <span id="typed"></span>
-          </div>
-        </div>
-      </div>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
     </div>
+    <!-- Left -->
 
-    <div class="container spacing">
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="img/games.png" width="100%" data-aos="flip-left">
-        </div>
-        <div class="col-lg-6">
-          <div class="headline secondHeadline" data-aos="fade-down">
-            Engage in Various Contest Modes
-          </div>
-          <div class="subtitle" data-aos="fade-up">
-            Make a meme contest where all 100 entries gets a piece of the prize using <i>community mode</i>. Or set a grand prize for the best talent in <i>single-winner mode</i>. Creaticles offers you flexible options to maximize your engagement with creators.
-          </div>
-        </div>
-      </div>
+    <!-- Right -->
+    <div>
+      <a href="https://t.me/creaticlesofficial" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://twitter.com/creaticles" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/72715323" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/CreaticlesOfficial" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
     </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
-    <div class="container spacing">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="headline thirdHeadline" data-aos="fade-down">
-            NFT Creators Rejoice
-          </div>
-          <div class="subtitle" data-aos="fade-up">
-            Instead of creating NFTs you think may sell, create NFTs you know buyers are looking for. Search for requests that match the art you want to produce, or stretch your boundaries and try something new! 
-          </div>
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Creaticles
+          </h6>
+          <p>
+            Get any custom NFT designed and minted through Creaticles.
+          </p>
         </div>
-        <div class="col-lg-6">
-          <div class="submissionBox floatCenter">
-            <img src="img/submission.png" width="100%" data-aos="flip-left">
-          </div>
-        </div>
-      </div>
-    </div>
+        <!-- Grid column -->
 
-    <div class="container spacing">
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="img/costs.png" width="100%" data-aos="flip-left">
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            hello@creaticles.com
+          </p>
+          <p>
+            <a href="https://t.me/creaticlesofficial" target="_blank">Get Support Through Creaticles Telegram</a>
+          </p>
         </div>
-        <div class="col-lg-6">
-          <div class="headline fourthHeadline" data-aos="fade-down">
-            Multichain
-          </div>
-          <div class="subtitle" data-aos="fade-up">
-            Creaticles runs on ETH and Polygon to start (with expansion into other chains), which means that NFT creators have a choice when minting your next NFT. 
-          </div>
-        </div>
+        <!-- Grid column -->
       </div>
+      <!-- Grid row -->
     </div>
+  </section>
+  <!-- Section: Links  -->
 
-    <div class="container-fluid spacing footer">
-      <div class="row">
-        <div class="col-lg-12">
-          <div><img src="img/logo.png"></div>
-          <div class="footerIcons">
-            <a href="https://twitter.com/creaticles" class="footerIcon" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/creaticles" class="footerIcon" target="_blank"><i class="fab fa-telegram"></i></a>
-            <a href="https://reddit.com/r/creaticles" class="footerIcon" target="_blank"><i class="fab fa-reddit"></i></a>
-          </div>
-          <div>Creaticles © Copyright 2021 | All Rights Reserved.</div>
-        </div>
-      </div>
-    </div>
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://creaticles.com/">Creaticles</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
     <!-- JS section -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>AOS.init({
+      duration: 1000,
+    });</script>
     <script src="scripts.js"></script>
     <!-- Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
